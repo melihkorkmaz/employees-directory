@@ -1,0 +1,9 @@
+<div>
+    <app-header>
+        <h1>Employee Directory</h1>
+    </app-header>
+    <app-search></app-search>
+    <div style="top:120px;">
+        <app-employee-list (employeeSelect)="onEmployeeSelect($event)"></app-employee-list>
+    </div>
+</div>
